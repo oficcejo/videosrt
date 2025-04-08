@@ -50,7 +50,7 @@
    pip install pillow opencv-python ffmpeg-python pydub speechrecognition jieba numpy matplotlib
    ```
 3. 安装ffmpeg
-4. ```
+   ```
    powershell -Command $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri 'https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip' -OutFile 'ffmpeg.zip'; Expand-Archive -Path 'ffmpeg.zip' -DestinationPath '.\' -Force; Move-Item -Path '.\ffmpeg-master-latest-win64-gpl\bin\*' -Destination '.\' -Force; Remove-Item -Path 'ffmpeg.zip' -Force; Remove-Item -Path '.\ffmpeg-master-latest-win64-gpl' -Recurse -Force
    ```
 ## 运行程序
