@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Temporary files
+temp/
+*.wav
+*.mp3
+*.mp4
+*.srt
+*.ass
+*.txt
+!requirements.txt
+!README.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# FFmpeg executables
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
